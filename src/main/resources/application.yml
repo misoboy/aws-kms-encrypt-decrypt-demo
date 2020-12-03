@@ -1,0 +1,10 @@
+
+server:
+  port: 8080
+
+# KMS 에 대한 정보
+kms:
+  # KMS Region 명시
+  region: ap-northeast-2
+  # 각 환경에 맞는 KMS Key ARN 명시
+  keyId: arn:aws:kms:ap-northeast-2:aws_account_id:key/0ea036c3-b456-49b1-b79f-d4e9983edc09
